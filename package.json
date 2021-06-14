@@ -1,0 +1,24 @@
+{
+  "name": "vite-plugin-legacy",
+  "version": "1.0.0",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "main": "index.js",
+  "types": "index.d.ts",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "dependencies": {
+    "@babel/standalone": "7.13.9",
+    "core-js": "^3.8.2",
+    "magic-string": "^0.25.7",
+    "regenerator-runtime": "^0.13.7",
+    "systemjs": "^6.8.3"
+  },
+  "devDependencies": {
+    "vite": "^2.1.2"
+  }
+}
